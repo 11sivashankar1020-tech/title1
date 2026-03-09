@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.back{
+	height: 100vh;
+	background-image: url("hero-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+@media (max-width: 576px){
+	.back{
+		height: 70vh;
+	}
+}
+
+
+.font{
+	font-family: "Dancing Script", cursive;
+}
+
+h1{
+	font-family: "Dancing Script", cursive;
+}
+
+.box{
+	font-family: "Dancing Script", cursive;
+}
+
+.boxes{
+	font-family: "Dancing Script", cursive;
+}
+
+.boxess{
+	font-family: "Dancing Script", cursive;
+}
+.boxesss{
+	font-family: "Dancing Script", cursive;
+}
+
+
+.head{
+	font-size: 55px;
+}
+
+.top{
+	color: lightgrey;
+}
+
+/*5 button*/
+
+.first:hover{
+	background-color: #222831 !important;
+	color: white !important;
+
+}
+
+.firstss.btn:not(.active){
+	background-color:transparent; !important;
+}
+
+/*tasta */
+
+.image{
+	transition: transform 0.10s ease;
+}
+
+/*pizza*/
+
+.image:hover{
+	transform: scale(1.1);
+}
+
+
+
+.carousel-indicators{
+	top: 350px !important;
+	justify-content: flex-start !important;
+
+}
+
+.card{
+	background-color:#222831 !important;
+	border: none !important;
+}
+
+
+.image1{
+	/*width: 356px;*/
+	height: 225px;
+	background-color:#f1f2f3;
+	border-bottom-left-radius: 60px;
+
+}
+
+
+.pink{
+	/*background-color: red !important;*/
+	background-color:#222831;
+}
+
+
+.click{
+	height: 30px;
+	width: 30px;
+	border: none;
+}
+
+/*9 cards*/
+
+.card {
+	transition: 0.10s ease;
+}
+
+.card:hover {
+	.red{
+	transform: scale(1.1);
+	}
+}
+
+
+
+
+.new:hover{
+	background-color:#b8860b !important;
+}
+
+.use{
+	height: 850px;
+}
+
+
+.sun{
+	height: 50px;
+	width: 550px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+
+.context{
+	font-family: "Dancing Script", cursive;
+}
+
+.item2{
+	font-family: "Dancing Script", cursive;
+}
+
+
+
+
